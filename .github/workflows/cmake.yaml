@@ -30,7 +30,7 @@ jobs:
             g++-${{ matrix.gcc-version }} \
             cmake \
             make \
-            prel \
+            perl \
             patch
 
       - name: Set default GCC version
